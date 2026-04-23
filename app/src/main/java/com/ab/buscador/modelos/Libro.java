@@ -9,13 +9,16 @@ public class Libro implements Serializable {
     private int foto;
     private String descripcion;
 
+    private String genero;
+
     //Constructor
-    public Libro(String titulo, String autor, int anio, String descripcion,int foto) {
+    public Libro(String titulo, String autor, int anio,String genero, String descripcion,int foto) {
         this.titulo = titulo;
         this.autor = autor;
         this.anio = anio;
         this.foto = foto;
         this.descripcion = descripcion;
+        this.genero = genero;
 
     }
     //Constructor vacio
@@ -62,5 +65,13 @@ public class Libro implements Serializable {
 
     public void setFoto(int foto) {
         this.foto = foto;
+    }
+
+    public String getGenero() {
+        return genero;
+    }
+
+    public void setGenero(String genero) {
+        this.genero = genero;
     }
 }

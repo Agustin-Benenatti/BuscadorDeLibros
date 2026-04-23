@@ -27,6 +27,7 @@ public class DetalleActivity extends AppCompatActivity {
             //Cargamos los datos del libro..
             binding.tvDetalleTitulo.setText(libro.getTitulo());
             binding.tvDetalleAutor.setText("Autor: "+libro.getAutor());
+            binding.tvGenero.setText("Género: "+libro.getGenero());
             binding.tvDetalleAnio.setText("Año: " + libro.getAnio());
             binding.tvDetalleDescripcion.setText(libro.getDescripcion());
             binding.ivDetalleFoto.setImageResource(libro.getFoto());

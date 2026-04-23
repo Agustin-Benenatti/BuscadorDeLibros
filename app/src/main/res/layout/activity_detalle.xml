@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     android:padding="20dp">
 
+    <TextView
+        android:id="@+id/tvGenero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Genero"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvDetalleAutor"
+        app:layout_constraintTop_toBottomOf="@+id/tvDetalleAnio" />
+
     <ImageView
         android:id="@+id/ivDetalleFoto"
         android:layout_width="140dp"
